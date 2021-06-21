@@ -1,0 +1,26 @@
+button.danger-button {
+  margin-top: 30px;
+
+  width: 100%;
+  height: 64px;
+  border: 0;
+  cursor: pointer;
+  background: #dc3545;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-weight: 800;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: background-color 0.2s;
+}
+
+button.danger-button svg {
+  margin-right: 16px;
+}
+
+button.danger-button:hover {
+  background: #c82333;
+}
